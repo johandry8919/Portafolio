@@ -1,0 +1,136 @@
+.title{
+
+-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=72, Color=#1CF7FF)";
+text-shadow: -20px 16px 3px rgb(84 81 81 / 37%), -5px -5px 6px #faf8f6;
+filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#1CF7FF);
+}
+.redes{
+  position: fixed;
+  width: 110px;
+  height: 200px;
+  left: 0;
+  right: 0;
+  top: 70px;
+  /* border: solid 1px red; */
+  z-index: 4;
+
+
+}
+.redes ul{
+  /* border: solid 1px red; */
+  width: 100px;
+
+
+
+}
+.redes ul li {
+  
+    line-height: 45px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.23s;
+
+
+
+  
+}
+.redes ul li:hover{
+  color: red;
+}
+.sertifi {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=126, Color=#FF2E35)"; /*IE 8*/
+  -moz-box-shadow: -25px -13px 21px -15px rgba(42, 18, 255, 0.3),
+    10px 14px 30px -22px #ff2e35; /*FF 3.5+*/
+  -webkit-box-shadow: -25px -13px 21px -15px rgba(42, 18, 255, 0.3),
+    10px 14px 30px -22px #ff2e35; /*Saf3-4, Chrome, iOS 4.0.2-4.2, Android 2.3+*/
+  box-shadow: -25px -13px 21px -15px rgba(42, 18, 255, 0.3),
+    10px 14px 30px -22px #ff2e35; /* FF3.5+, Opera 9+, Saf1+, Chrome, IE10 */
+  filter: progid:DXImageTransform.Microsoft.Shadow(Strength=30, Direction=135, Color=#FF2E35); /*IE 5.5-7*/
+}
+
+.elem {
+  position: relative;
+  padding: 0;
+  border-radius: 15px;
+
+  -webkit-transition: padding 0.21s ease-in-out;
+  -moz-transition: padding 0.3s ease-in-out;
+  -o-transition: padding 0.3s ease-in-out;
+  transition: padding 0.3s ease-in-out;
+  transition: 0.3s;
+  z-index: 2;
+}
+.elem:hover {
+  /* transform: scale(2); */
+  transform: scaley(2);
+  width: 900px;
+  cursor: pointer;
+  left: 0;
+  border-radius: 15px;
+  z-index: 3;
+  border: solid 1px rebeccapurple;
+}
+.elem2 {
+  position: relative;
+  padding: 0;
+  border-radius: 15px;
+
+  -webkit-transition: padding 0.1s ease-in-out;
+  -moz-transition: padding 0.1s ease-in-out;
+  -o-transition: padding 0.1s ease-in-out;
+  transition: padding 0.1s ease-in-out;
+  transition-duration: 0.1s;
+  z-index: 2;
+  transition: 0.25s;
+}
+.elem2:hover {
+  /* transform: scale(2); */
+  transform: scaley(2);
+  width: 900px;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  border-radius: 15px;
+  z-index: 3;
+  margin: auto;
+  border: solid 1px rebeccapurple;
+}
+
+.cssarrow {
+  position: relative;
+  background-color: #000000;
+  color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+.cssarrow:after,
+.cssarrow:before {
+  bottom: 100%;
+  left: 0;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.cssarrow:after {
+  border-color: rgba(153, 136, 213, 0);
+  border-bottom-color: #000000;
+  border-width: 34px;
+  margin-left: 0px;
+}
+.cssarrow:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #0a31f5;
+  border-width: 36px;
+  margin-left: -2px;
+}
+
+@keyframes caja1 {
+  0% {
+    transform: translateY(-100%);
+  }
+}

@@ -1,0 +1,56 @@
+.grow {
+    transition: 0.25;
+    cursor: pointer;
+    animation: img1 infinite 2s alternate;
+
+}
+
+
+@keyframes img1 {
+    from {
+        transform: translatex(30px);
+    }
+
+    to {
+        transform: translatey(20px);
+        ;
+    }
+}
+
+.grow:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+
+
+
+}
+
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+
+/* d-block mx-lg-auto img-fluid */
+
+
+.elem {
+	position: relative;
+    cursor: pointer;
+	padding: 0;
+	border: 0 solid #000;
+	border-radius: 0;
+	-webkit-transition: padding 0.5s ease, border-width 0.5s ease, border-radius 0.5s ease;
+	-moz-transition: padding 0.5s ease, border-width 0.5s ease, border-radius 0.5s ease;
+	-o-transition: padding 0.5s ease, border-width 0.5s ease, border-radius 0.5s ease;
+	transition: padding 0.5s ease, border-width 0.5s ease, border-radius 0.5s ease;
+}
+.elem:hover {
+	padding: 19px;
+
+	
+
+}
