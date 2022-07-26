@@ -1,7 +1,31 @@
-.masthead{
+.Contx{
+  z-index: 4;
+  background-color: #00000000;
  
   
   
+
+}
+.social{
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+.social ul{
+  display: flex;
+}
+.social ul li{
+  list-style: none;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.social ul li:hover{
+  cursor: pointer;
+  background-color: #e77f08;
+  z-index: 4;
 
 }
 .grow {
@@ -74,3 +98,17 @@
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
+
+.ihlGpp svg{
+  font-size: 38px;
+margin-bottom: 20px;
+color: rgb(255, 255, 255);
+width: 100px;
+height: 100px;
+padding: 30px 0px;
+border-radius: 50%;
+background: linear-gradient(to right, rgb(99, 114, 255) 0%, rgb(92, 169, 251) 100%);
+}
+
+

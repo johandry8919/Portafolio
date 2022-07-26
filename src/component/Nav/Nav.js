@@ -1,4 +1,4 @@
-import { NavLink} from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 import "./Nav.css";
 
 export function Nav() {
@@ -9,7 +9,7 @@ export function Nav() {
           <NavLink
             className="navbar-brand animate__animated animate__flash   text-white"
             Link
-            to={"/"}
+            to={"/Portafolio"}
             style={{ textDecoration: "none", color: "black" }}
           >
             {" "}
@@ -29,7 +29,7 @@ export function Nav() {
           <div className="navbar-collapse collapse show" id="navbarCollapse">
             <ul className="navbar-nav me-auto mb-2 mb-md-0 icon-list">
               <li className="nav-item">
-                <NavLink className="nav-link" to={"/"}>
+                <NavLink className="nav-link" to={"/Portafolio"}>
                   Home
                 </NavLink>
               </li>
@@ -39,17 +39,15 @@ export function Nav() {
                 </NavLink>
               </li>
               <li className="nav-item">
-              <NavLink className=" nav-link" to={"/Miproyectos"}>
+                <NavLink className=" nav-link" to={"/Miproyectos"}>
                   Mis proyectos
                 </NavLink>
               </li>
             </ul>
-       
           </div>
         </div>
-      </nav>
 
-      
+      </nav>
     </div>
   );
 }
