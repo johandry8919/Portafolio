@@ -7,7 +7,7 @@ import QuienSoy from './component/QuienSoy/QuienSoy'
 import Jumbostron from './component/Jumbostrop/Jumbostron'
 import Abaut from './component/Abaut/Abaut'
 import { useState } from 'react';
-import { FondoAnimado } from './component/pure-css-animated-background/FondoAnimado';
+
 
 
 
@@ -20,11 +20,7 @@ function App() {
   return (
   
     <div className="App">
-    
- 
-  
     <Nav/>
-    <FondoAnimado/>
  
     <Routes>
     

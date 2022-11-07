@@ -4,6 +4,11 @@
 text-shadow: -20px 16px 3px rgb(84 81 81 / 37%), -5px -5px 6px #faf8f6;
 filter: progid:DXImageTransform.Microsoft.Shadow(Strength=10, Direction=135, Color=#1CF7FF);
 }
+.parrafo{
+  min-height: 20px;
+  font-size: 20px;
+
+}
 .redes{
   position: fixed;
   width: 110px;

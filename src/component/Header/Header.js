@@ -1,18 +1,16 @@
 
-import avatar from "../images/avataaars.svg"
+import avatar from "../images/logo_jr.png"
+import  './header.css'
 export default function Header() {
   return (
-    <header className="row align-items-center justify-content-space-between mt-5">
-            <div className="col-md-7 pt-5 bg-black ">
-              <h1 className="display-4 pt-5 ">johandry rojas</h1>
-              <h6 className="font-weight-light">Web Developer</h6>
-              <p className="font-weight-lighter pt-2 ">Su solución y su desarrollador web profesional.</p>
-         
+    <header className=" mt-5 m-auto">
+          <div className="baner d-flex align-items-center flex-direction-row-reverse">
+          <img width="200" classname=" imagen" src={avatar} alt="..."/>
+            <div className="m-5">
+            <h2 className="font-weight-lighter   ">Su solución y su desarrollador web profesional.</h2>
             </div>
-            <div class="col-md-4 col-6">
-              {/* <img src="img/irina-delgado-logo.png" alt="" class="mt-3 "/> */}
-              <img width="200" classname=" text-center    " src={avatar} alt="..."/>
-            </div>
+          </div>
+
     </header>
   );
 };

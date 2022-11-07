@@ -9,10 +9,7 @@ export default function Portafolio() {
                 
             <h2 className="text-uppercase font-weight-bold">PROYECTOS RECIENTES
 </h2>
-<h5 class="mb-4">Mis proyectos recientes</h5>
-               
-             
-               
+
                 <div className="row justify-content-center mb-5">
                    
                     <div className="col-12 col-md-6 col-lg-4 mb-5">

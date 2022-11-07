@@ -1,15 +1,14 @@
 import "./Inicio.css";
-import img from "./images/avataaars.svg";
-
 import Portafolio from "./Portafolio/Portafolio";
 import Header from "./Header/Header";
+import Skills from "./Skills/Skills";
 
 function Inicio() {
   return (
-    <div class="container Contx">
+    <div className="container-fluid Contx ">
       <Header />
 
-      <div className="col-12">
+      <div className="col-12 text-center">
         <h2>Caraterisitcas</h2>
         <div className="row">
           <div className="col-12 col-md-4 mt-5  ">
@@ -37,7 +36,7 @@ function Inicio() {
           </div>
           <div className="col-12 col-md-4 mt-5">
             <div style={{ transform: "none" }}>
-              <span class="sc-bczRLJ ihlGpp">
+              <span className="sc-bczRLJ ihlGpp">
                 <svg
                   stroke="currentColor"
                   fill="currentColor"
@@ -82,50 +81,11 @@ function Inicio() {
           </div>
         </div>
 
-        <div className="row mt-5">
-          <div className="col-xs-12 col-md-6">
-            <img src={img} class="img-responsive" alt="" />
-          </div>
-          <div className="col-xs-12 col-md-6">
-            <div className="about-text text-center">
-              <h2>Sobre mí</h2>
-              <p>
-                Soy un desarrollador web ya con más de 2 año de experiencia y un
-                alrededor de 3 años estudio he estado en multiples proyectos web
-                y han sido exitosos gracias a mis conocimientos adquiridos en
-                cursos y en proyectos reales siempre mejorando y buscando el
-                conocimiento autodidacta.
-              </p>
-            </div>
-
-            <div className="col-md-6 text-center m-auto">
-                <h3>¿Por qué escogerme?</h3>
-            <ul>
-            <li className="mt-3">Responsabilidad</li>
-            <li className="mt-3">Creatividad</li>
-            <li className="mt-3">Seguridad</li>
-            <li className="mt-3">Velocidad a la hora de hacer proyectos</li>
-            </ul>
-           
-           <ul>
-            <li className="mt-3">
-             Altos conocimientos de programación
-             </li>
-            <li className="mt-3"> 
-            Conocimientos y aprendizaje
-             mediante cursos y proyectos reales
-            </li>
-            </ul>
       
-       
-            </div>
-          </div>
 
-        </div>
-
-        <div className="row">
+        <div className="row mt-5">
           <div className="col-12">
-            <div class="section-title">
+            <div className="section-title">
               <h2>Mis Servicios</h2>
               <p>Servicios que ofrezco en DarioCoding</p>
             </div>
@@ -258,6 +218,8 @@ function Inicio() {
       </div>
 
       <Portafolio />
+      <Skills/>
+
     </div>
   );
 }

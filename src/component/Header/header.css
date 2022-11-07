@@ -1,0 +1,15 @@
+.logo{
+    border-radius: 50%;
+}
+
+.baner{
+    background-color: rgba(0, 5, 8, 0.212);
+    width: 100%;
+    padding: 10px;
+}
+.baner h2{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    text-align: center;
+
+}
